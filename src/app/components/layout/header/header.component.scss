@@ -1,0 +1,58 @@
+.headerContainer{
+    width: 100%;
+    height: 18%;
+    background-color: transparent;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.contain{
+    width: 90%;
+    height: 90%;
+    border: solid red 3px;
+    border-radius: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.contain-1{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    color: var(--fontColor);
+    font-size: 3rem;
+}
+
+.contain-2{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.barOptions{
+    width: 100%;
+    display: flex;
+}
+.option{
+    color: var(--fontColor);
+    list-style: none;
+    text-decoration: none;
+    margin: 3%;
+    font-size: 1.4rem;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.option:hover{
+    transform: translateY(-7px);
+}

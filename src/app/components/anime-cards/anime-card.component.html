@@ -1,0 +1,24 @@
+<div class="cardsContainer">
+    @for (elemento of this.elementos; track elemento) {
+        <div class="card">
+            <img class="imagePoster" src="{{elemento.attributes.posterImage.large}}" alt="elemento.title">
+            <h2 class="title">{{elemento.attributes.canonicalTitle}}</h2>
+            <p class="description">{{elemento.attributes.description}}</p>
+        </div>
+    }
+
+    @for (elemento2 of this.elementos2; track elemento2) {
+        <div class="card">
+            <img class="imagePoster" src="{{elemento2.images.webp.large_image_url}}" alt="elemento2.title">
+            <h2 class="title">{{elemento2.title}}</h2>
+            <p class="description">{{elemento2.synopsis}}</p>
+        </div>
+    }
+    @for (elemento3 of this.elementos3; track elemento3) {
+        <div class="card">
+            <img class="imagePoster" src="{{elemento3.images.webp.large_image_url}}" alt="elemento3.title">
+            <h2 class="title">{{elemento3.title}}</h2>
+            <p class="description">{{elemento3.synopsis}}</p>
+        </div>
+    }
+</div>

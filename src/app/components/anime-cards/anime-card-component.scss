@@ -1,0 +1,35 @@
+
+.cardsContainer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 12%;
+}
+
+.card{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1%;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+.imagePoster{
+    width: 50%;
+    height: auto;
+}
+.title{
+    color: var(--fontColor);
+    font-size: 1.4rem;
+    text-align: center;
+}
+.card .description{
+    margin-top: 0px;
+    text-align: justify;
+    color: gray;
+}
